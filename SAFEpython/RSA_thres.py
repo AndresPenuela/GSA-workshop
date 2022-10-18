@@ -496,7 +496,7 @@ def RSA_plot_thres(X, idxb, n_col=5, X_Labels=[], str_legend=['behavioural', 'no
     https://www.safetoolbox.info"""
 
     # Options for the graphic:
-    pltfont = {'fontname': 'DejaVu Sans', 'fontsize': 15} # font
+    pltfont = {'fontname': 'DejaVu Sans', 'fontsize': 12} # font
     lwn = 2 # line width for non-behavioural records
     lwb = 2 # line width for behavioural records
 
