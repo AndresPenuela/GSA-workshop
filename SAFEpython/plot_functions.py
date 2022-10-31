@@ -57,7 +57,7 @@ def boxplot1(S, X_Labels=[], Y_Label='Sensitivity',
     https://www.safetoolbox.info"""
 
     # Options for the graphic:
-    pltfont = {'fontname': 'DejaVu Sans', 'fontsize': 15} # font
+    pltfont = {'fontname': 'DejaVu Sans', 'fontsize': 11} # font
     dh = 0.40 # semi-width of the box
     dv = 0.01 # semi-height of the box for deterministic value (no bootstrap)
     dv = 0.005 # semi-height of the box for bootstrap mean
@@ -681,7 +681,7 @@ def scatter_plots(X, Y, n_col=5, Y_Label='Y', X_Labels=[], idx=np.array([])):
     https://www.safetoolbox.info"""
 
     # Options for the graphic:
-    pltfont = {'fontname': 'DejaVu Sans', 'fontsize': 15} # font
+    pltfont = {'fontname': 'DejaVu Sans', 'fontsize': 11} # font
     mt = 'o' # marker type
     mth = 'o' # marker type for highlighted datapoints
 
