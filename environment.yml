@@ -9,3 +9,5 @@ dependencies:
   - matplotlib
   - ipywidgets
   - scipy
+  - numba = 0.42.0
+  - llvmlite = 0.31.0
