@@ -346,7 +346,7 @@ def RSA_plot_groups(X, idx, Yk, n_col=5, X_Labels=[], legend_title='Y'):
 
     # Options for the figure
     lw = 2 # line width
-    pltfont = {'fontname': 'DejaVu Sans', 'fontsize': 11} # font
+    pltfont = {'fontname': 'DejaVu Sans', 'fontsize': 15} # font
     # Colorscale
     colorscale = 'jet' # color plot
     # colorscale = 'gray' # balck and white plot
