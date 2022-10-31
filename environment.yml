@@ -5,8 +5,8 @@ channels:
   - defaults
 dependencies:
   - python=3.7
-  - numpy
-  - matplotlib
-  - ipywidgets
-  - scipy
-  - numba = 0.42.0
+  - numpy = 1.21.5
+  - matplotlib = 3.5.1
+  - ipywidgets = 7.6.5
+  - scipy = 1.7.3
+  - numba = 0.55.1
